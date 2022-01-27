@@ -1,0 +1,97 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'styles.css'%}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7090cb8cf2.js" crossorigin="anonymous"></script>
+    <title>Phone Book App</title>
+</head>
+<body>
+    <div class = "container">
+        <header class = "header">
+            <form class = "search-bar" action="">
+                <input type="search-name" class = "contact-search" name="search-area" placeholder="Search">
+            </form>
+            <a href="{% url 'add-contact' %}">
+                <i class="fas fa-plus-circle"></i>
+            </a>
+        </header>
+
+        <section class = "contact-library">
+            <ul class = "contact-list">
+                <a href="profile.html">
+                    <div class = "contact-section">
+                        <li class="list_item">
+                            <p class="contact-name">Jhon Doe</p>
+                            <p class="relationship">Friend</p>
+                        </li>
+                        <li class = "list_item">
+                            <i class="fas fa-phone"></i>  
+                            <i class="fas fa-sms text"></i>                  
+                        </li>
+                    </div>
+                </a>
+                <hr>
+                <a href="profile.html">
+                    <div class = "contact-section">
+                        <li class="list_item">
+                            <p class="contact-name">Jhon Doe</p>
+                            <p class="relationship">Friend</p>
+                        </li>
+                        <li class = "list_item">
+                            <i class="fas fa-phone"></i>  
+                            <i class="fas fa-sms text"></i>                  
+                        </li>
+                    </div>
+                </a>
+                <hr>
+                <a href="profile.html">
+                    <div class = "contact-section">
+                        <li class="list_item">
+                            <p class="contact-name">Jhon Doe</p>
+                            <p class="relationship">Friend</p>
+                        </li>
+                        <li class = "list_item">
+                            <i class="fas fa-phone"></i>  
+                            <i class="fas fa-sms text"></i>                  
+                        </li>
+                    </div>
+                </a>
+                <hr>
+                <a href="profile.html">
+                    <div class = "contact-section">
+                        <li class="list_item">
+                            <p class="contact-name">Jhon Doe</p>
+                            <p class="relationship">Friend</p>
+                        </li>
+                        <li class = "list_item">
+                            <i class="fas fa-phone"></i>  
+                            <i class="fas fa-sms text"></i>                  
+                        </li>
+                    </div>
+                </a>
+                <hr>
+                <a href="profile.html">
+                    <div class = "contact-section">
+                        <li class="list_item">
+                            <p class="contact-name">Jhon Doe</p>
+                            <p class="relationship">Friend</p>
+                        </li>
+                        <li class = "list_item">
+                            <i class="fas fa-phone"></i>  
+                            <i class="fas fa-sms text"></i>                  
+                        </li>
+                    </div>
+                </a>   
+            </ul>
+        </section>
+    </div>
+    
+</body>
+</html>
